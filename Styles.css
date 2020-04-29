@@ -1,0 +1,81 @@
+﻿body
+{
+	background-color: DarkSlateGrey;
+	margin: 0;
+	padding: 0;
+}
+
+a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: DarkCyan;
+}
+
+
+#Page
+{
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+	border-style: solid;
+	background-color: Linen;
+}
+
+#Header
+{
+	background-color: Silver;
+	height: 100px;
+	border-style: solid;
+}
+
+#Menu
+{
+	position: sticky;
+	top: 0px;
+	border-style: solid;
+	background-color: Tan;
+}
+
+#Page1
+{
+	position: absolute;
+	width: 20%;
+	top: 0px;
+	background-color: Tan;
+}
+
+#Page2
+{
+	position: absolute;
+	width: 20%;
+	top: 0px;
+	left: 180px;
+	background-color: Tan;
+
+}
+
+#Content
+{
+	padding-bottom: 1000px;
+	border-style: solid;
+}
+
+#Footer
+{
+	position: fixed;
+	border-style: solid;
+	bottom: 0px;
+	width: 894px;
+	background-color: Silver;
+}
