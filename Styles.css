@@ -37,6 +37,7 @@ a:hover
 	background-color: Silver;
 	height: 100px;
 	border-style: solid;
+	padding-left: 7px;
 }
 
 #Menu
@@ -53,6 +54,7 @@ a:hover
 	width: 20%;
 	top: 0px;
 	background-color: Tan;
+	padding-left: 7px;
 }
 
 #Page2
@@ -62,6 +64,7 @@ a:hover
 	top: 0px;
 	left: 180px;
 	background-color: Tan;
+	padding-left: 7px;
 
 }
 
@@ -69,6 +72,7 @@ a:hover
 {
 	padding-bottom: 1000px;
 	border-style: solid;
+	padding-left: 7px;
 }
 
 #Footer
