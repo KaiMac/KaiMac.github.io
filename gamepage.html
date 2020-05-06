@@ -5,6 +5,12 @@
         <meta charset="utf-8" />
         <title></title>
         <link rel="stylesheet" href="Styles.css"/>
+
+        <script src="Build/UnityLoader.js"></script>
+        <script>
+          var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+        </script>
+
     </head>
     <body>
         <div id = "Page">
@@ -23,6 +29,9 @@
             <div id = "Content">
                 <h2> Game Page </h2>
                 <p> This is the Game page. To see other pages click menu buttons </p>
+
+                <div id="unityContainer" style="width: 960px; height: 600px"></div>
+
                 <img src= "Photos/tazzieforest.jpg" alt= "Photo of trail through trees in Tasmania" style="width:500px;height:600px;">
             </div>
             <div id = "Footer">
